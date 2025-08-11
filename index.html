@@ -78,7 +78,7 @@
 <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
 <input id="telefone" type="password" readonly size="14" style="border:none; background:none; font-size:14px;" value="(11) 9 3439-2323"/>
 <button onclick="toggleTelefone()" style="background:none; border:none; cursor:pointer; margin-left:0;">
-  <span id="icon">👁️</span>
+  <img id="icon" src="icons/eye_open.svg" alt="">
 </button>
 
 </p>
@@ -290,10 +290,10 @@
 
     if (input.type === "password") {
       input.type = "text";
-      icon.textContent = "👁️‍🗨️"; // Mostrando
+      icon.src = "icons/eye_close.svg"; // Mostrando
     } else {
       input.type = "password";
-      icon.textContent = "👁️"; // Escondido
+      icon.src = "icons/eye_open.svg"; // Escondido
     }
   }
 </script>
