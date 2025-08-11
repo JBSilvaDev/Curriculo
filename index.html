@@ -81,20 +81,6 @@
   <span id="icon">👁️</span>
 </button>
 
-<script>
-  function toggleTelefone() {
-    const input = document.getElementById("telefone");
-    const icon = document.getElementById("icon");
-
-    if (input.type === "password") {
-      input.type = "text";
-      icon.textContent = "🙈"; // Mostrando
-    } else {
-      input.type = "password";
-      icon.textContent = "👁️"; // Escondido
-    }
-  }
-</script>
 </p>
 <hr/>
 <p class="w3-large">
@@ -297,6 +283,19 @@
         colorLight: "#ffffff",
         correctLevel: QRCode.CorrectLevel.H,
       });
-    </script>
+
+  function toggleTelefone() {
+    const input = document.getElementById("telefone");
+    const icon = document.getElementById("icon");
+
+    if (input.type === "password") {
+      input.type = "text";
+      icon.textContent = "🙈"; // Mostrando
+    } else {
+      input.type = "password";
+      icon.textContent = "👁️"; // Escondido
+    }
+  }
+</script>
 </body>
 </html>
