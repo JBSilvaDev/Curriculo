@@ -28,7 +28,7 @@ Há várias formas de iniciar o desenvolvimento do seu projeto, como:
 
 **Agora Vamos Lá!**
 
-1. Vamos começar fazendo o Fork do nosso projeto em: https://github.com/falvojr/cv
+1. Vamos começar fazendo o Fork do nosso projeto em: https://github.dev/JBSilvaDev/curriculo
 2. Ao criar o projeto podemos utilizar o próprio GitHub como IDE utilizando o (.) na página inicial do projeto.
 3. Github Pages para visualizamos e compartilhamos nosso CV online com todos.
 
