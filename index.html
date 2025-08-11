@@ -1,12 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
-  <head>
-    <title>Juliano B Silva</title>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css" />
-
+<head>
+<title>Juliano B Silva</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="styles.css" rel="stylesheet"/>
 <style>
   html,
   body,
@@ -53,148 +52,116 @@
   }
   
 </style>
-  </head>
+</head>
+<body class="w3-light-grey" cz-shortcut-listen="true">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width: 1400px">
+<!-- The Grid -->
+<div class="w3-row-padding">
+<!-- Left Column -->
+<div class="w3-third">
+<div class="w3-white w3-text-grey w3-card-4">
+<div class="w3-container">
+<h2>Juliano B Silva</h2>
+</div>
+<div class="w3-container">
+<p>
+<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Analise e desenvolvimento de sistemas
+              </p>
+<p>
+<i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Mucuri - BA
+              </p>
+<p>
+<i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>jbsilva.dev@outlook.com
+              </p>
+<p>
+<i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
+<input id="telefone" type="password" readonly size="14" style="border:none; background:none; font-size:14px;" value="(11) 9 3439-2323"/>
+<button onclick="toggleTelefone()" style="background:none; border:none; cursor:pointer; margin-left:0;">
+  <span id="icon">👁️</span>
+</button>
 
-  <body class="w3-light-grey" cz-shortcut-listen="true">
-    <!-- Page Container -->
-    <div class="w3-content w3-margin-top" style="max-width: 1400px">
-      <!-- The Grid -->
-      <div class="w3-row-padding">
-        <!-- Left Column -->
-       <div class="w3-third">
-  <div class="w3-white w3-text-grey w3-card-4">
-            <div class="w3-container">
-              <h2>Juliano Batista Silva</h2>
-            </div>
-            <div class="w3-container">
-              <p>
-                <i
-                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >Analise e desenvolvimento de sistemas
-              </p>
-              <p>
-                <i
-                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >Mucuri - BA
-              </p>
-              <p>
-                <i
-                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >jbsilva.dev@outlook.com
-              </p>
-              <p>
-                <i
-                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
-                ></i
-                >(11) 9 3439-2323
-              </p>
-              <hr />
+<script>
+  function toggleTelefone() {
+    const input = document.getElementById("telefone");
+    const icon = document.getElementById("icon");
 
-              <p class="w3-large">
-                <b
-                  ><i
-                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
-                  ></i
-                  >Skills</b
-                >
-              </p>
-              <p>Python | IA</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-teal"
-                  style="width: 60%"
-                >
+    if (input.type === "password") {
+      input.type = "text";
+      icon.textContent = "🙈"; // Mostrando
+    } else {
+      input.type = "password";
+      icon.textContent = "👁️"; // Escondido
+    }
+  }
+</script>
+</p>
+<hr/>
+<p class="w3-large">
+<b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
+</p>
+<p>Python | IA</p>
+<div class="w3-light-grey w3-round-xlarge w3-small">
+<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%">
                   60%
                 </div>
-              </div>
-              <p>LowCode</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-teal"
-                  style="width: 60%"
-                >
+</div>
+<p>LowCode</p>
+<div class="w3-light-grey w3-round-xlarge w3-small">
+<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%">
                   60%
                 </div>
-              </div>
-              <p>Power BI</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-teal"
-                  style="width: 30%"
-                >
+</div>
+<p>Power BI</p>
+<div class="w3-light-grey w3-round-xlarge w3-small">
+<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 30%">
                   30%
                 </div>
-              </div>
-              <p>Excel</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-teal"
-                  style="width: 70%"
-                >
+</div>
+<p>Excel</p>
+<div class="w3-light-grey w3-round-xlarge w3-small">
+<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 70%">
                   70%
                 </div>
-              </div>
-              <br />
-
-              <p class="w3-large w3-text-theme">
-                <b
-                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
-                  >Idiomas</b
-                >
-              </p>
-              <p>Inglês (em progresso)</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-teal"
-                  style="width: 40%"
-                >
+</div>
+<br/>
+<p class="w3-large w3-text-theme">
+<b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b>
+</p>
+<p>Inglês (em progresso)</p>
+<div class="w3-light-grey w3-round-xlarge">
+<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 40%">
                   40%
                 </div>
-              </div><br /><br />
-              <!-- QR Code -->
-              <div class="w3-container w3-center">
-                <p class="w3-large w3-text-theme">
-                  <b
-                    ><i
-                      class="fa fa-qrcode fa-fw w3-margin-right w3-text-teal"
-                    ></i
-                    >WhatsApp</b
-                  >
-                </p>
-                <div
-                  id="qrcode"
-                  class="w3-center"
-                  style="display: inline-block"
-                ></div>
-                <p class="w3-center">
+</div><br/><br/><br/><br/>
+<!-- QR Code -->
+<div class="w3-container w3-center">
+<p class="w3-large w3-text-theme">
+<b><i class="fa fa-qrcode fa-fw w3-margin-right w3-text-teal"></i>WhatsApp</b>
+</p>
+<div class="w3-center" id="qrcode" style="display: inline-block"></div>
+<p class="w3-center">
                   Escaneie o QR Code para entrar em contato comigo no WhatsApp!
                 </p>
-              </div>
-              <br />
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Column -->
-        <div class="w3-twothird">
-  <div class="w3-container w3-card w3-white w3-margin-bottom" style="flex-grow: 1;">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Sobre
+</div>
+<br/>
+</div>
+</div>
+</div>
+<!-- Right Column -->
+<div class="w3-twothird">
+<div class="w3-container w3-card w3-white w3-margin-bottom" style="flex-grow: 1;">
+<h2 class="w3-text-grey w3-padding-16">
+<i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Sobre
             </h2>
-            <p>
+<p>
               Apaixonado por tecnologia e formado em Análise e Desenvolvimento
               de Sistemas. Programar é mais que um trabalho pra mim — é um hobby
               que vira diversão (e às vezes um bom desafio!). Quando não estou
               codando, recarrego as energias com filmes, séries e momentos em
               família.
             </p>
-            <p>
+<p>
               Sou calmo e lido bem com situações diversas, mas confesso que
               tenho meu lado ansioso quando o assunto mexe com meus planos.
               Profissionalmente, busco um ambiente onde minha experiência possa
@@ -203,148 +170,118 @@
               pessoal. Adoro trocar conhecimentos, agregar valor e aprimorar
               minhas habilidades em projetos que desafiem meu potencial.
             </p>
-            <p>
+<p>
               No fim do dia, acredito que equilíbrio é tudo: um código que
               funciona, uma série maratonada e um jantar bem preparado (sim,
               também me arrisco na cozinha!)
             </p>
-          </div>
-
-          <div class="w3-container w3-card w3-white w3-margin-bottom" style="flex-grow: 1;">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Experiências
+</div>
+<div class="w3-container w3-card w3-white w3-margin-bottom" style="flex-grow: 1;">
+<h2 class="w3-text-grey w3-padding-16">
+<i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiências
             </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>Suzano S.A - Analista de CoE (Center of Excelence)</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>junho de
+<div class="w3-container">
+<h5 class="w3-opacity">
+<b>Suzano S.A - Analista de CoE (Center of Excelence)</b>
+</h5>
+<h6 class="w3-text-teal">
+<i class="fa fa-calendar fa-fw w3-margin-right"></i>junho de
                 2017 - <span class="w3-tag w3-teal w3-round">Aual</span>
-              </h6>
-              <p>
-                <strong>Minhas Experiências</strong><br/>
+</h6>
+<p>
+<strong>Minhas Experiências</strong><br/>
                 • <strong>Analista de CoE</strong> (2025-Atual): 
                  Atuando como analista de RPA, faço parte de uma equipe de desenvovedores onde buscamos melhorar o dia-a-dia das demais areas da na companhia.
                 Criamos automatizações que dao tempo para as pessoas, fazer atividades onde pessoas são necessarias, reduzindo a carga horario gasta em atividades repetividas e que tomam muito tempo para serem feitas de forma manual.
-                Principais tecnologias utilizadas, UiPath, MS365, Python e SQL.<br />
+                Principais tecnologias utilizadas, UiPath, MS365, Python e SQL.<br/>
 
                 • <strong>Analista de Energia</strong> (2024-2025):
                  Atuação no BackOffice da Diretoria de Energia em São Paulo/SP
                 desde fev/2024, gerenciando contratos no mercado livre de
                 energia, administração de faturas nacionais e automação de
-                processos com Python/Power Platform.<br />
+                processos com Python/Power Platform.<br/>
 
                 • <strong>Analista de Logística</strong> (2021-2024): 
                 Gestão completa da cadeia logística (SAP ERP), liderança de equipe e
-                desenvolvimento de dashboards em Power BI<br />
-
-              </p>
-              <hr />
-            </div>
-          </div>
-
-          <div class="w3-container w3-card w3-white w3-margin-bottom" style="flex-grow: 1;">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Educação
+                desenvolvimento de dashboards em Power BI<br/>
+</p>
+<hr/>
+</div>
+</div>
+<div class="w3-container w3-card w3-white w3-margin-bottom" style="flex-grow: 1;">
+<h2 class="w3-text-grey w3-padding-16">
+<i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educação
             </h2>
-
-            <!-- UNOPAR -->
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b>UNOPAR - Universidade Norte do Paraná</b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2022
+<!-- UNOPAR -->
+<div class="w3-container">
+<h5 class="w3-opacity">
+<b>UNOPAR - Universidade Norte do Paraná</b>
+</h5>
+<h6 class="w3-text-teal">
+<i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2022
               </h6>
-              <p>Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
-              <hr />
-            </div>
-
-            <!-- Cursos Extracurriculares -->
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Academia do Flutter</b></h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - 2023
+<p>Tecnólogo em Análise e Desenvolvimento de Sistemas</p>
+<hr/>
+</div>
+<!-- Cursos Extracurriculares -->
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Academia do Flutter</b></h5>
+<h6 class="w3-text-teal">
+<i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - 2023
               </h6>
-              <p>Formação Extra Curricular em Flutter/Dart</p>
-              <hr />
-            </div>
-
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Hashtag Treinamentos</b></h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - Atual
+<p>Formação Extra Curricular em Flutter/Dart</p>
+<hr/>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>Hashtag Treinamentos</b></h5>
+<h6 class="w3-text-teal">
+<i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - Atual
               </h6>
-              <p>
+<p>
                 Formação Extra Curricular em Python, PowerBI e Ciência de dados
               </p>
-              <hr />
-            </div>
-
-            <!-- EF English Live -->
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>EF English Live</b></h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2024 - Atual
+<hr/>
+</div>
+<!-- EF English Live -->
+<div class="w3-container">
+<h5 class="w3-opacity"><b>EF English Live</b></h5>
+<h6 class="w3-text-teal">
+<i class="fa fa-calendar fa-fw w3-margin-right"></i>2024 - Atual
               </h6>
-              <p>
+<p>
                 Curso Técnico Integrado - Ensino de Inglês como Segundo Idioma
               </p>
-              <hr />
-            </div>
-          </div>
-
-          <div class="w3-container w3-card w3-white" style="flex-grow: 1;">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Projetos
+<hr/>
+</div>
+</div>
+<div class="w3-container w3-card w3-white" style="flex-grow: 1;">
+<h2 class="w3-text-grey w3-padding-16">
+<i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projetos
             </h2>
-            <div class="w3-container">
-              <h6 class="w3-text-teal">
-                <i class="fa fa-github fa-fw w3-margin-right"></i>
-                <a href="https://github.com/JBSilvaDev" target="_blank">GITHUB</a>
-              </h6>
-              <p>Aqui estão meus projetos pessoais e desafios de código</p>
-              <p>Sinta-se a vontade para clonar o repositório, criar um fork ou fazer um pull request</p>
-              <hr />
-            </div>
-           
-          </div>
-
-          <!-- End Right Column -->
-        </div>
-
-        <!-- End Grid -->
-      </div>
-
-      <!-- End Page Container -->
-    </div>
-
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
-      <p>Minhas Redes Sociais</p>
-      <a href="https://github.com/JBSilvaDev" target="_blank"
-        ><i class="fa fa-github w3-hover-opacity"></i
-      ></a>
-      <br>
-      <a
-        href="https://www.linkedin.com/in/jbsilvadev/"
-        target="_blank"
-        ><i class="fa fa-linkedin w3-hover-opacity"></i
-      ></a>
-
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-    <script>
+<div class="w3-container">
+<h6 class="w3-text-teal">
+<i class="fa fa-github fa-fw w3-margin-right"></i>
+<a href="https://github.com/JBSilvaDev" target="_blank">GITHUB</a>
+</h6>
+<p>Aqui estão meus projetos pessoais e desafios de código</p>
+<p>Sinta-se a vontade para clonar o repositório, criar um fork ou fazer um pull request</p>
+<hr/>
+</div>
+</div>
+<!-- End Right Column -->
+</div>
+<!-- End Grid -->
+</div>
+<!-- End Page Container -->
+</div>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+<p>Minhas Redes Sociais</p>
+<a href="https://github.com/JBSilvaDev" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+<br/>
+<a href="https://www.linkedin.com/in/jbsilvadev/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
       // Gerar QR Code para o WhatsApp
       const whatsappNumber = "5573999054857"; // Substitua pelo seu número de WhatsApp
       const whatsappMessage = "Olá, Juliano! Gostaria de entrar em contato.";
@@ -361,5 +298,5 @@
         correctLevel: QRCode.CorrectLevel.H,
       });
     </script>
-  </body>
+</body>
 </html>
